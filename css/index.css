@@ -1,0 +1,299 @@
+* {
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    color: aliceblue;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #3C4043 ;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #3C4043 ;
+}
+
+p {
+    font-size: 1rem;
+    color: #3C4043 ;
+    padding:2em 0;
+    line-height:1.5em;
+}
+
+.primary-button {
+    font-size: 16px; 
+    padding: 10px;
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    background-color: #EC41AE;
+    color: white;
+    border: 0px;
+    text-transform: uppercase;
+    cursor: pointer; 
+ }
+ 
+ .primary-button:hover {
+     background-color: #d91792;
+ 
+ }
+ 
+
+/*<!--  navigation section  -->*/
+.navigation {
+    background-color: #3C4043;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    color: aliceblue;
+    padding: 15px 20px;
+}
+
+.inline-block:hover {
+    color: #d63b9d;
+
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: left;
+    margin-left: 25px;
+ }
+    
+nav {
+    width: 74%;
+    padding: 1%;
+    text-align: right;
+}
+
+ul {
+    width: 80%;
+    margin-left:auto;
+}
+
+/*<!--new Hero section  -->*/
+#content {
+    background-color: #3C4043;
+    width: 100%;
+    display:flex;
+    align-items:center;
+}
+
+.aboutMe {
+    background-color: #3C4043;
+    padding-left: 25px;
+    padding-right: 20px;
+    flex: 1 1 0;
+}
+
+.heroImg {
+   flex: 1 1 0;
+}
+
+
+.intro-text {
+    color: aliceblue;
+    font-size:1.5em ;
+    padding:2.5em 0;
+    line-height:1.5em;
+}
+
+/*<!--old Hero section  -->*/
+.newheroImg {
+    background-color: #3C4043;
+    /* padding: 100px 15px; */
+  }
+.newcontent {
+    /* max-width: 300px; */
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 50px; */
+    background-color: #3C4043;
+    text-align: center;
+  }
+
+/*<!--  Skill section  -->*/
+.headingSkill {
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 30px;
+    background-color: aliceblue;
+}
+
+
+.flexContainer {
+    background-color: aliceblue;
+    display: flex;
+    padding: 60px 30px;
+    text-align: center;
+  }
+  .flexContainer div {
+    width: 33%;
+    padding: 25px;
+  }
+
+/*<!--  Work section  -->*/
+.headingWork {
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 30px;
+    background-color: rgb(250, 234, 249);
+}
+
+#work {
+    background-color: rgb(250, 234, 249)
+}
+
+.myWork{
+    background-color: rgb(250, 234, 249);
+    padding: 15px;
+}
+
+.myAreaL {
+    grid-area: myAreaL;
+}
+
+.myArea {
+    grid-area: myArea;
+}
+
+.workGrid {
+
+    display:grid;
+    padding: 15px;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "myAreaL myArea";
+    align-items: center;
+    row-gap: 1em;
+}
+
+.gridIMG {
+    width: 90%;
+ }
+
+/*<!--  About section  -->*/
+.headingMe {
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    background-color: aliceblue;
+}
+
+#about {
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+/*<!--  Footer section  -->*/
+
+.footer {
+    background-color:#3C4043;
+    text-align: center;
+    width: 100%;
+}
+
+.footerH2 {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footerUI {
+    width: 100%;
+}
+
+
+
+/*<!--  My UX Skills section coded using CSS flex -->*/
+
+/* #mySkill { 
+    background-color: aliceblue;
+    width: 100%;
+    padding: 2em 4em;
+}
+
+.flexContainer {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-between;
+    padding-top: 2em;   
+    gap: 4em;
+    text-align: center;
+}
+
+.flexChild {
+    flex: 1 1 0;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.flexChild h3 {
+    padding-top:1em;
+}
+
+#ux-icon, #ui-icon, #code-icon {
+    height:150px;
+    width:100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#ux-icon {
+    background-image: url('/images/UX_icon.png');
+}
+#ui-icon {
+    background-image: url('/images/UI_icon.png');
+}
+#code-icon {
+    background-image: url('/images/CODE_icon.png');
+}*/
+
+/*<!--  My Work section coded using CSS flex -->*/
+
+
+
+ #about {
+    background-color: aliceblue;
+    padding: 15px;
+}
+@media only screen and (max-width:600px) {
+
+    #content {
+        flex-direction:column;
+    }
+
+    p {
+        font-size: 1rem;
+        color: #3C4043 ;
+    }
+
+    .flexContainer {
+        flex-direction: column;
+    }
+    
+    .flexContainer div {
+        width: 100%;
+        padding: 25px;
+      }
+    .workGrid {
+        display:block;
+        width: 90%;
+    }
+}
