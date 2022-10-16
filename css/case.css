@@ -44,3 +44,22 @@ p {
     margin-bottom: 40px;
     padding: 25px;
 }
+
+.footer {
+    background-color:#3C4043;
+    text-align: center;
+    width: 100%;
+}
+
+.footerH2 {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footerUI {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
